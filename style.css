@@ -18,9 +18,11 @@
 }
 
 @media (max-width: 768px) {
+
   .header {
     text-align: center;
   }
+
 }
 .main {
   display: block;
@@ -130,7 +132,8 @@
 }
 
 /* Edit Task */
-.list .list__item .task-input {
+.list .list__item .task-input, 
+.list .list__item.edit-mode .task-label {
   display: none;
 }
 
@@ -139,6 +142,3 @@
   width: 224px;
 }
 
-.list .list__item.edit-mode .task-label {
-  display: none;
-}
