@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.page {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -41,10 +41,6 @@ body {
   list-style: none;
 }
 
-input,
-button {
-  list-style: none;
-}
 .button {
   background: none;
   border: 0px;
@@ -88,7 +84,7 @@ button {
   display: block;
   margin: 0 0 20px;
 }
-.task-add {
+.task-input_add {
   width: 318px;
 }
 
@@ -106,10 +102,10 @@ button {
   vertical-align: middle;
 }
 
-.list .list__item > input[type="checkbox"] {
+.list .list__item > .checkbox {
   margin: 0 10px;
 }
-.list .list__item > label {
+.list .list__item > .task-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
